@@ -6,6 +6,7 @@
     "configurations": [
         {
             "name": "notesapp",
+<<<<<<< HEAD
             "cwd": "notesapp",
             "request": "launch",
             "type": "dart",
@@ -15,10 +16,19 @@
         {
             "name": "notesapp (profile mode)",
             "cwd": "notesapp",
+=======
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/screens/main.dart"
+        },
+        {
+            "name": "notesapp (profile mode)",
+>>>>>>> 1b5c706bac6a335c28f05bbc036ba1cfd87c50f9
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile",
             "program": "lib/screens/main.dart"
+<<<<<<< HEAD
 
         },
         {
@@ -29,6 +39,15 @@
             "flutterMode": "release",
             "program": "lib/screens/main.dart"
 
+=======
+        },
+        {
+            "name": "notesapp (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "program": "lib/screens/main.dart",
+>>>>>>> 1b5c706bac6a335c28f05bbc036ba1cfd87c50f9
         }
     ]
 }
